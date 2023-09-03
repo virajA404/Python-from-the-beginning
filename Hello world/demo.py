@@ -23,3 +23,4 @@ print(a / b)
 print(a * b)
 print(a % b)
 print(a // b)#flow division - divides two numbers and rounds the result down to the nearest integer
+print(a ** b)#astric operator - a to the power b 
