@@ -49,3 +49,13 @@ print(a or b)
 print(not a) #not - gives the opposite value of a
 
 print(a ^ b) #XOR - if 2 are equal gives false. If 2 are not equal gives true
+
+
+#type
+x = 54
+y = 'Hello'
+print(type(x),type(y))
+
+a,b,c = 23,45,"Name"
+
+print(a,b,c)
