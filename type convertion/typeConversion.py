@@ -11,3 +11,11 @@ amount = input()
 b = 20
 
 print(bool(amount)+b)
+
+print("Enter your name: ",end='') # end - have the curser on the same line
+name = input()
+print("Hello",name)
+
+print("Enter your age: ",end='') 
+age = input()
+print("You are ",age, "years old")
