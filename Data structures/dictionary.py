@@ -9,20 +9,23 @@ x['fruits'] = ["Apple", "Mango", "Orange"]
 x['books'] = {1998: "Harry Potter", 2000: "Lord of the ring" } 
 
 
-print(x)
-#to print the keys
-print(x.keys()) 
+# print(x)
+# #to print the keys
+# print(x.keys()) 
 
-#to print the values
-print(x.values()) 
+# #to print the values
+# print(x.values()) 
 
-#accessing the dictionary
-y = x['1000'] 
-print(y) 
+# #accessing the dictionary
+# y = x['1000'] 
+# print(y) 
 
-#finding if the value is exists in the dictionary if not return 0
-z = x.get(1000, 0) 
-print(z)
+# #finding if the value is exists in the dictionary if not return 0
+# z = x.get(1000, 0) 
+# print(z)
+
+#checking if the key is in (or not in) the dictionary
+print("books" in x)
 
 #delete the value from the dictionary
 del x["1000"]
