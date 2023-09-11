@@ -31,3 +31,26 @@ print(x)
 #delete the entire dictionary
 x.clear()
 print(x)
+
+
+r = {
+    "a": ["Hello", "Hi", "Good morning"],
+    "b": ["Bye", "Good night"],
+    "c": 16
+}
+
+#List is a mutable object(can be changed after it is created)
+#This list is passed by reference. 
+#Every changers do to list will affect the original list
+p = r['a']
+p.append('Ayoubowan')
+print(p)
+
+#Data types are immutable objects(cannot be changed after it is created)
+#This is passed by vale
+#Every changers do to 'c' will not affect the original 'c' in dictionary
+n = r['c']
+n = 18
+
+print(n)
+print(r)
