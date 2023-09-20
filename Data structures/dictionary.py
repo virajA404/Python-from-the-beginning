@@ -33,7 +33,7 @@ print(x)
 
 #delete the entire dictionary
 x.clear()
-print(x)
+print(x) 
 
 
 r = {
